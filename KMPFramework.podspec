@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   # 使用 GitHub Release 下载链接，需要先创建 Release 并上传 shared.framework.zip
   s.source           = { :http => "https://github.com/zhouxubin/KMPSource/releases/download/#{s.version}/KMPFramework.zip" }
 
-  s.vendored_frameworks = 'KMPFramework/*.framework'
+  s.vendored_frameworks = 'KMPFramework/shared.framework'
   s.ios.deployment_target = '13.0'
 end
