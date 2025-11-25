@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.author           = { 'mumu' => 'wanglin@km.com' }
   s.source           = { :http => "https://github.com/zhouxubin/KMPSource" }
 
-  s.vendored_frameworks = 'tree/main/shared.framework'
+  s.vendored_frameworks = '/tree/main/shared.framework'
   s.ios.deployment_target = '13.0'
 end
