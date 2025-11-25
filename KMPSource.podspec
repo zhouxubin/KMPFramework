@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint KMPFramework.podspec' to ensure this is a
+# Be sure to run `pod lib lint KMPSource.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KMPSource'
-  s.version          = '1.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'KMP Framework for iOS integration'
   s.homepage         = 'https://github.com/zhouxubin/KMPSource'
   s.license = { :type => 'MIT', :text => <<-LICENSE
@@ -19,8 +19,9 @@ Pod::Spec.new do |s|
   
   s.author           = { 'mumu' => 'wanglin@km.com' }
   # 使用 GitHub Release 下载链接，需要先创建 Release 并上传 shared.framework.zip
-  s.source           = { :http => "https://github.com/zhouxubin/KMPSource/releases/download/#{s.version}/shared.zip" }
+  s.source           = { :http => "https://github.com/zhouxubin/KMPSource/releases/download/#{s.version}/BaiDu.zip" }
 
-  s.vendored_frameworks = 'shared/*.framework'
-  s.ios.deployment_target = '13.0'
+  s.vendored_frameworks = 'BaiDu/*.framework'
+  s.resource = "BaiDu/*.bundle"
+  s.ios.deployment_target = '9.0'
 end
