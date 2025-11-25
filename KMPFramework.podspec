@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'KMPFramework'
+  s.name             = 'KMPSource'
   s.version          = '1.0.0'
   s.summary          = 'KMP Framework for iOS integration'
   s.homepage         = 'https://github.com/zhouxubin/KMPSource'
