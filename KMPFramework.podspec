@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'shared'
+  s.name             = 'KMPFramework'
   s.version          = '1.0.0'
   s.summary          = 'A short description of KMPFramework.'
   s.homepage         = 'https://github.com/zhouxubin/KMPSource'
